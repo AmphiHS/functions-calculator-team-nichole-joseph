@@ -11,3 +11,6 @@ const areaTrap = (num1,num2,num3) => {
 const areaRegPoly = (num1,num2,num3) => {
     return num3*(1/2*num1*num2);
 }
+const arcLength = (num1,num2) => {
+    return 2*Math.PI*num1*(num2/360);
+}
