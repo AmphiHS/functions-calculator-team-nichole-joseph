@@ -14,3 +14,15 @@ const areaRegPoly = (num1,num2,num3) => {
 const arcLength = (num1,num2) => {
     return 2*Math.PI*num1*(num2/360);
 }
+const areaCircle = (num1) => {
+    return num1*num1*(Math.PI);
+}
+const areaSector = (num1,num2) => {
+    return num1*num1*(Math.PI)*(num2/360); 
+}
+const volumeSphere = (num1) => {
+    return 4/3*Math.PI*(num1*num1*num1);
+}
+const volumeCylinder = (num1,num2) => {
+    return Math.PI*(num1*num1)*num2;
+}
